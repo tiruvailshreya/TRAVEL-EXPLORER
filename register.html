@@ -1,0 +1,54 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Website Registration</title>
+</head>
+<body>
+    <h1>Register for an Account</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" required><br><br>
+         
+         <label for="travel-preferences">Travel Preferences</label>
+            <select id="travel-preferences" name="travel-preferences">
+                <option value="beaches">Beaches</option>
+                <option value="mountains">Mountains</option>
+                <option value="cities">Cities</option>
+                <!-- Add more options as needed -->
+            </select>
+            
+            <label for="destinations">Favorite Destinations</label>
+            <textarea id="destinations" name="destinations" rows="4"></textarea>
+            
+            <label for="travel-styles">Travel Styles</label>
+            <input type="checkbox" id="adventure" name="travel-styles[]" value="adventure">
+            <label for="adventure">Adventure</label>
+            
+            <input type="checkbox" id="luxury" name="travel-styles[]" value="luxury">
+            <label for="luxury">Luxury</label>
+            
+            <input type="checkbox" id="budget" name="travel-styles[]" value="budget">
+            <label for="budget">Budget</label>
+            
+            <!-- Add more travel styles checkboxes as needed -->
+
+            <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+<body>
+    <USER PROFILE>
+    <h1>PROFILE</h2>
+    <a href="profile.html">Click Here</a>
+</body>
+</html>
